@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ottawa Masonry Contractor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div style="background-color:#ff4444; color:white; text-align:center; padding:5px; font-weight:bold;">
+    Emergency Masonry Services Available – Call Now: <a href="tel:6138759715" style="color:white; text-decoration:underline;">613-875-9715</a>
+  </div>
+  <header class="header">
+    <img src="main-logo-white.jpg" alt="Ottawa Masonry Contractor Logo" class="logo" />
+    <nav class="hamburger-menu">
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul class="menu">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us?</a></li>
+        <li><a href="#restoration">Restoration</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#blog">Tips</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="index-fr.html">FR</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Bienvenue chez Ottawa Maçonnerie Contractor</h1>
+    <a class="cta" href="#contact">Demander une soumission</a>
+    <p><a href="https://g.page/r/CZjXUAbOcmLfEBM/review" target="_blank" style="color: yellow; font-weight: bold;">Leave us a review</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form name="contact-form" id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="tel" name="phone" placeholder="613-875-9715" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p><a href="https://g.co/kgs/a3LzDCd" target="_blank">View our Google profile</a></p>
+    <script>
+      const scriptURL = 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE';
+      const form = document.getElementById('contact-form');
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => alert('Message sent successfully!'))
+          .catch(error => alert('Error!'));
+      });
+    </script>
+  </section>
+
+  <footer>
+    <p>© 2025 Ottawa Masonry Contractor | <a href="mailto:admin@ottawamasonrycontractor.com">admin@ottawamasonrycontractor.com</a> | 613-875-9715</p>
+  </footer>
+</body>
+</html>
