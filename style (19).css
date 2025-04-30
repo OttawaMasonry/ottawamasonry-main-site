@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.top-bar {
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 20px;
+  font-size: 14px;
+}
+.top-bar a {
+  color: white;
+  margin-right: 12px;
+  text-decoration: none;
+}
+.top-bar i {
+  margin-right: 5px;
+}
+.top-right img {
+  height: 20px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.fr-btn {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+.menu-toggle {
+  font-size: 28px;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.main-header {
+  background-image: url('permacon-background.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+  color: white;
+}
+.logo img {
+  height: 130px;
+}
+.slogan {
+  font-size: 26px;
+  text-align: center;
+  flex-grow: 1;
+  color: white;
+}
