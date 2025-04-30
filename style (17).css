@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.top-bar {
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 20px;
+  font-size: 14px;
+}
+.top-bar a {
+  color: white;
+  margin-right: 12px;
+  text-decoration: none;
+}
+.top-bar i {
+  margin-right: 5px;
+}
+.top-right img {
+  height: 20px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.main-header {
+  background-color: #b0b0b0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo img {
+  height: 120px;
+}
+.slogan {
+  font-size: 26px;
+  color: black;
+  text-align: center;
+  flex-grow: 1;
+}
+.menu-toggle {
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
