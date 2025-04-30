@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('background-stone.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.top-bar {
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.hero {
+    text-align: center;
+    background: rgba(200, 200, 200, 0.9);
+    padding: 40px 20px;
+}
+.logo {
+    width: 120px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+.cta-buttons .button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.cta-buttons .button.secondary {
+    background: gold;
+    color: black;
+}
+.contact-form {
+    background: #fff;
+    padding: 20px;
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
